@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="dvlib-26.2.0-alpha06">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/dvlib/26.2.0-alpha06/d22e8d7e248a17f995d43830b30a73a67be539c9/dvlib-26.2.0-alpha06.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/dvlib/26.2.0-alpha06/1a7379021a45cdec89dd816979e2ca01992d2384/dvlib-26.2.0-alpha06-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

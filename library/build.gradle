@@ -1,0 +1,26 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 27
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 27
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+/** Package the given lint checks library into this AAR  */
+dependencies {
+    implementation 'io.reactivex.rxjava2:rxjava:2.1.10'
+    implementation 'com.jakewharton.rxbinding2:rxbinding-kotlin:2.0.0'
+    implementation 'io.reactivex.rxjava2:rxkotlin:2.2.0'
+
+    // jarを外から
+//    lintChecks files("lint/custom-lint.jar")
+
+    // 別モジュール
+    lintChecks project(":checks")
+}

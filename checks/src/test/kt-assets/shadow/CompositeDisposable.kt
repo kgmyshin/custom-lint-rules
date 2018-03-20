@@ -1,0 +1,3 @@
+package io.reactivex.disposables
+
+class CompositeDisposable
