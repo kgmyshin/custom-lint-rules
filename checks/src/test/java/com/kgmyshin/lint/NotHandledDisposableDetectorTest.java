@@ -16,8 +16,8 @@ import java.util.List;
 
 public class NotHandledDisposableDetectorTest extends LintDetectorTest {
 
-    private File ktAssetsDir = new File("checks/src/test/kt-assets");
-    private File javaAssetsDir = new File("checks/src/test/java-assets");
+    private File ktAssetsDir = new File("src/test/kt-assets");
+    private File javaAssetsDir = new File("src/test/java-assets");
 
     public void testKotlin() throws IOException {
         @Language("kotlin") String content = getContent(ktAssetsDir, "Main.kt");

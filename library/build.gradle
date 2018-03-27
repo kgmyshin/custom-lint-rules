@@ -19,8 +19,8 @@ dependencies {
     implementation 'io.reactivex.rxjava2:rxkotlin:2.2.0'
 
     // jarを外から
-//    lintChecks files("lint/custom-lint.jar")
+    lintChecks files("lint/custom-lint.jar")
 
     // 別モジュール
-    lintChecks project(":checks")
+//    lintChecks project(":checks")
 }

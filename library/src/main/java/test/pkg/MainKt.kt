@@ -4,7 +4,7 @@ import io.reactivex.Single
 
 class MainKt {
 
-    fun aaa() {
+    fun ng() {
         Single.just("aa").subscribe()
     }
 
